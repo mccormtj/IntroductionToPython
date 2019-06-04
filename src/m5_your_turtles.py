@@ -180,4 +180,16 @@ Donatello.left(5)
 Donatello.forward(5)
 Donatello.left(5)
 
+Raphael = rg.SimpleTurtle('turtle')
+Raphael.pen = rg.Pen('red', 5)
+Raphael.speed = 30
+Raphael.left(90)
+Raphael.forward(150)
+Raphael.right(120)
+Raphael.forward(50)
+Raphael.right(120)
+Raphael.forward(200)
+Raphael.left(150)
+Raphael.forward(100)
+
 window.close_on_mouse_click()
